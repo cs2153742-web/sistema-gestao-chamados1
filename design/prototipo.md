@@ -22,3 +22,22 @@ A interface deverá ser simples,
 
 intuitiva e de fácil utilização.
 
+
+\## Nova funcionalidade
+
+
+
+O sistema deverá apresentar a prioridade
+
+de cada chamado registrado.
+
+
+
+As prioridades serão:
+
+\- Baixa
+
+\- Média
+
+\- Alta
+
