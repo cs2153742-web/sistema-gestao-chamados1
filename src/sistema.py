@@ -3,12 +3,14 @@ chamados = []
 def registrar_chamado():
     nome = input("Nome do solicitante: ")
     problema = input("Descreva o problema: ")
+    prioridade = input("Informe a prioridade (Baixa, Média ou Alta): ")
 
-    chamado = {
-        "solicitante": nome,
-        "problema": problema,
-        "status": "Aberto"
-    }
+   chamado = {
+    "solicitante": nome,
+    "problema": problema,
+    "status": "Aberto",
+    "prioridade": prioridade
+}
 
     chamados.append(chamado)
     print("Chamado registrado com sucesso!")
@@ -19,6 +21,7 @@ def listar_chamados():
         print("Solicitante:", chamado["solicitante"])
         print("Problema:", chamado["problema"])
         print("Status:", chamado["status"])
+        print("Prioridade:", chamado["prioridade"])
 
 print("SISTEMA DE GESTÃO DE CHAMADOS")
 
